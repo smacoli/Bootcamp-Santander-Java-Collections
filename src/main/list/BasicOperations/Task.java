@@ -1,4 +1,4 @@
-package main.list.Operations;
+package main.list.BasicOperations;
 
 public class Task {
     private String description;
