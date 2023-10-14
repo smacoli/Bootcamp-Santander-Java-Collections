@@ -70,7 +70,7 @@ public class Product implements Comparable<Product>{
                 '}';
     }
 
-    /* Determina que a ordem que o Set será organizado é pelo nome dos produtos */
+    /* Determina que a ordem em que o Set será organizado é pelo nome dos produtos */
     @Override
     public int compareTo(Product o) {
         return prodName.compareToIgnoreCase(o.getProdName());
